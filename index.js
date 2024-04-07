@@ -1,3 +1,3 @@
-const boukiapi = require('bindings')('waveapi');
+const waveapi = require('bindings')('waveapi');
 
 module.exports.unprotectData = waveapi.unprotectData;
