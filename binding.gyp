@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "boukiapi",
-      "sources": [ "src/boukiapi.cpp" ],
+      "target_name": "waveapi",
+      "sources": [ "src/waveapi.cpp" ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")",
         "include"
